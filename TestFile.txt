@@ -1,0 +1,69 @@
+A king of the hill map with a lot of spyte
+ch and fjords(who would have guessed?). Its unique layout doesn't look anyth
+ing like other king of the hill maps, so be prepared for the unique gameplay experience, as well as s
+tunning aesthetics. And did
+I mention that this map has FJORDS!!!
+The map was originally made for Grizzly Berry's 10 day contest.
+Arena Offblast is a fast-paced, high-altitude community map set in a t
+op secret missile silo wedged into the top of a hollowed-out mountain. Open-air paths
+and narrow hallways converge on a central control point located just under the
+silo’s blast doors. This mountaintop arena also boasts a sheer cliff face encircling the battleground,
+giving you the chance to help your opponents improve their tactics. Specifically, anyone you
+blast over the side will get some time to think about the various flaws in their “standing next to the
+edge of a cliff” strategy as they plummet to an excruciating, non-respawnable death.
+— The Classless Update
+Port with valuable weapons for government. Port has not been used for more than 10 years.
+Map is working in classic game type and deathmatch.
+Mann vs. Machine (commonly abbreviated as MvM) is a co-op game mode released in the Mann vs.
+Machine Update. In this game mode, a team of up to six players attempts to prevent a horde of AI-controlled
+robots from escorting a bomb to a drop-point located in a Mann Co. facility. During the game, players can purchase
+upgrades for their weapons and various abilities for themselves, such as various damage resistances, movement
+speed modifications, and improved health regeneration, using currency obtained by killing the robots, called credits.
+All purchased upgrades last for the duration of the game, or until the player resets their abilities
+at an Upgrade Station. If a player leaves the game for any reason, their upgrades are retained, providing
+they reconnect, as well as any credits the player has spent and/or has remaining.
+Players have the option of playing Boot Camp or Mann Up. Although they do not differ in difficulty,
+Mann Up allows for players to receive rewards at the successful completion of a Mann Up mission and even
+greater rewards at the successful completion of a Tour of Duty, most notably Botkiller weapons, Australium weapons,
+and the exceedingly rare Golden Frying Pan. In order to play a Mann Up mission, the player must have
+a Tour of Duty Ticket in their backpack. Upon the completion of a Mann Up
+mission, the Tour of Duty Ticket used is consumed and no longer available
+in the player's inventory. Players can also increase the amount of item drops
+for their entire team in Mann Up with a Squad Surplus Voucher.
+Mann vs. Machine mode currently has five separate difficulty levels: Normal, Intermediate,
+Advanced, Expert, and Nightmare.
+2Fort is a Capture the Flag map and the subsequent remake
+of the Team Fortress Classic map of the same name; these maps
+are both based on the Team Fortress map 2Fort5. 2Fort was the first official
+CTF map for Team Fortress 2, and was one of the six initial maps included with the game's release.
+Two similar forts face each other, separated by a
+contaminated canal of deep water. A covered bridge spans the
+stream and battlements exist on each fort, providing excellent
+positions to assault oncoming players, particularly for
+Snipers. Below the bridge, there lies a small water body, which can be used
+to access the sewers.
+To win, a team must repeatedly capture
+the opposing team's Intelligence by picking it up from
+deep within their fort and carrying it all the way to
+its own base until reaching the game's capture objective (3 captures on
+Valve servers), while preventing the enemy from achieving that same goal.
+There are three entrances into each fort,
+however, not all of them are accessible to every class.
+The primary entrances are the two openings on the ground
+level. There are short ramps leading up to each entrance, and
+the entrances converge under an open grate. These ramps allow
+defenders to attack intruders from above. The second entrance is
+through the sewers which run underneath each base.
+The entryway between the sewers and the base features
+a stairway and a pool of water; this area is a viable
+chokepoint. The third entrance is the battlements of each
+base, which can generally only be accessed by using special
+jumping maneuvers as a Scout, Soldier, Pyro,
+Demoman, or Engineer. It can also be accessed by a Medic
+equipping the Quick-Fix who is healing a Soldier or Demoman.
+2Fort's bases are the easiest
+to defend of all stock CTF maps due
+to the long, narrow, easily-blocked passages
+leading to and from the enemy team's flag room.
+Every capture requires a substantial amount
+of team coordination, especially when the player count is high.
