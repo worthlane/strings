@@ -7,5 +7,14 @@
 
 int main()
 {
+    MyPutsTest();
+    MyStrlenTest();
+    MyStrcpyTest();
+    MyStrncpyTest();
+    MyFgetsTest();
     MyStrdupTest();
+    MyGetlineTest();
+    MyStrcatTest();
+    MyStrncatTest();
+    MyStrchrTest();
 }

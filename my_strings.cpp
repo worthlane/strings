@@ -11,9 +11,7 @@ int MyPuts(const char* string)
     while (*string)
         if (putchar(*(string++)) == EOF) return EOF;
 
-    putchar('\n');
-
-    return '\n';
+    return putchar('\n');
 }
 
 char* MyStrchr(const char* string, int symbol)
@@ -22,7 +20,7 @@ char* MyStrchr(const char* string, int symbol)
 
     do
         if (*string == symbol) return (char* ) (string);
-    while (*(++string));
+    while (*(string++));
 
     return NULL;
 }
@@ -45,9 +43,9 @@ char* MyStrcpy(char* dest, const char* source)
     assert(dest);
     assert(source != dest);
 
-    int cnt = -1;
+    int cnt = 0;
 
-    while (source[++cnt])
+    while (source[cnt++])
         dest[cnt] = source[cnt];
 
     dest[cnt] = '\0';
@@ -69,7 +67,7 @@ char* MyStrncpy(char* dest, const char* source, size_t limit)
         cnt++;
     }
 
-    while (cnt < limit + 1)
+    while (cnt < limit)
         dest[cnt++] = 0;
 
     return dest;
@@ -133,8 +131,8 @@ char* MyFgets(char* string, int num, FILE* stream)
 
 char* MyStrdup(const char* string)
 {
-    char* duplicate = NULL;
-    if ((duplicate = (char* )malloc((strlen(string) + 1) * sizeof(char))) == NULL)
+    char* duplicate = (char*) malloc((strlen(string) + 1) * sizeof(char));
+    if (duplicate == NULL)
         return NULL;
 
     int cnt = 0;
@@ -155,13 +153,12 @@ ssize_t MyGetline(char** lineptr, size_t* n, FILE* stream)
     assert(stream);
 
     ssize_t count = 0;
-    size_t step = 8;
+    static const size_t step = 8;
     size_t size = step;
-
 
     if (*lineptr == NULL)
     {
-        *lineptr = (char* ) malloc(size);
+        *lineptr = (char* ) calloc(size, sizeof(char));
         if (*lineptr == NULL)
             return -1;
         else
@@ -172,12 +169,10 @@ ssize_t MyGetline(char** lineptr, size_t* n, FILE* stream)
 
     while ((c = fgetc(stream)) != EOF)
     {
-        count++;
-
-        if (count > *n)
+        if (count >= *n)
         {
             size += step;
-            char* new_ptr = (char* ) realloc(*lineptr, size);
+            char* new_ptr = (char*) realloc(*lineptr, size);
             if (new_ptr == NULL)
                 return -1;
             else
@@ -187,14 +182,15 @@ ssize_t MyGetline(char** lineptr, size_t* n, FILE* stream)
             }
         }
 
-        (*lineptr)[count - 1] = c;
+        (*lineptr)[count++] = c;
 
         if (c == '\0' || c == '\n')
             break;
     }
 
-    if (c == EOF) return -1;
     (*lineptr)[count] = '\0';
+
+    if (c == EOF) return -1;
 
     return count;
 }
